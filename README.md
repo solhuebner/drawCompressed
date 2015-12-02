@@ -12,6 +12,6 @@ drawCompressed(int16_t sx, int16_t sy, const uint8_t *bitmap, uint8_t color);
 
 No heights or widths need to be givin ,, because those are part of the compressed data.
 
-#Please not !
+#Please note !
 - height of your image always needs to be a multiple of 8 (due to the fact that half bytes don't work)
 - look at the compress ratio, before using the compressed data, Iit might be worse in some cases
