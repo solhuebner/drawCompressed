@@ -4,7 +4,6 @@
 #include "bitmaps.h"
 
 Arduboy arduboy;
-SimpleButtons buttons (arduboy);
 
 void setup() {
   arduboy.start();
@@ -16,7 +15,6 @@ void setup() {
 
 void loop() {
   if (!(arduboy.nextFrame())) return;
-  buttons.poll();
   arduboy.clearDisplay();
   arduboy.drawCompressed(0,0, kitchen_compressed, WHITE);  
   arduboy.display();
