@@ -3,11 +3,9 @@ In this demo we use a new function drawCompressed. All images have been compress
 
 Compress ratio really depends on how much big white or black junks are in the image.
 
-use the compression tool on command line:
+if you want to compress images you'll have to use the compression tool:
 
-```Bash
-./compress imagetitle.png myimagetitle
-```
+https://github.com/TEAMarg/Cabi
 
 in your sketch use drawCompressed:
 
